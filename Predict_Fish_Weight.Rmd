@@ -1,7 +1,7 @@
 ---
 title: "Weight of Fish"
 author: "Alex Bell"
-date: "April 10, 2021"
+date: "Spring Semester 2021"
 output: 
   html_document:
     number_sections: true
