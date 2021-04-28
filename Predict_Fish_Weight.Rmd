@@ -153,7 +153,7 @@ summary.out$which[3,]
 ```
 
 ```{r}
-best.model <- lm(Weight~Height+Width,data=Breamdata)
+best.model <- lm(Weight~Length2+Height,data=Breamdata)
 Fullup <- lm(Weight~.,data=Breamdata)
 summary(best.model)
 ```
@@ -220,7 +220,7 @@ summary.out$which[3,]
 ```
 
 ```{r}
-best.model <- lm(Weight~Height+Width,data=Smeltdata)
+best.model <- lm(Weight~Length2+Width,data=Smeltdata)
 Fullup <- lm(Weight~.,data=Smeltdata)
 summary(best.model)
 ```
